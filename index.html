@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>瀑布流demo</title>
+	<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<script type="text/javascript" src="./js/zepto.js"></script>
+	<script type="text/javascript" src="./js/falls.js"></script>
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+		}
+		#contain{
+			position: absolute;
+			margin-top: 20px;
+			left: 50%;
+			transform: translate(-50%,0);
+			-webkit-transform: translate(-50%,0);
+			-moz-transform: translate(-50%,0);
+		}
+		#contain div{
+			position: absolute;
+			background: #b0e7c4;
+			border-radius: 5px;
+			-webkit-transition: all .5s linear;
+			-o-transition: all .5s linear;
+			-moz-transition: all .5s linear;
+			transition: all .5s linear;
+		}
+	</style>
+</head>
+<body>
+	<div id="contain"></div>
+</body>
+</html>
